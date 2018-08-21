@@ -13,7 +13,10 @@ Configuração de uma VLAN
 * fa 0/1 192.168.1.11
 
 * fa 0/3 192.168.1.20
-* fa 0/4 192.168.1.21	
+* fa 0/4 192.168.1.21
+
+* fa 0/5 Mode: Trunk
+
 
 ---
 
@@ -24,6 +27,8 @@ Configuração de uma VLAN
 
 * fa 0/3 192.168.1.22
 * fa 0/4 192.168.1.23
+
+* fa 0/5 Mode: Trunk
 
 
 ---
@@ -36,6 +41,13 @@ Configuração de uma VLAN
 
 Switch>
 Switch>enable
+
+```
+
+>> Entrar no modo de configuração
+
+```
+
 Switch#configure terminal
 
 ```
@@ -61,17 +73,18 @@ Switch(config)#interface FastEthernet0/1
 Switch(config-if)#switchport access vlan 100
 Switch(config-if)#exit
 
-```
-
->> Insrindo outra porta em uma VLAN
-
-```
-
 Switch(config)#interface FastEthernet0/2
 Switch(config-if)#switchport access vlan 100
 Switch(config-if)#exit
 
 ```
 
+>> Deixar a porta do switch em modo **Trunk**
 
+```
 
+Switch(config)#interface fastEthernet0/5
+Switch(config-if)#switchport mode trunk
+Switch(config-if)#exit
+
+```
