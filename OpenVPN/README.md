@@ -2,6 +2,7 @@
 
 ## Cenário
 
+
 > **Maquina filiar:**  
 >> Placas de rede:
 >>> * enp0s3 - 192.168.1.10/24 - Modo bridge
@@ -47,6 +48,7 @@ comp-lzo
 verb 4
 keepalive 10 120
 persist-key
+
 persist-tun
 float
 ```
