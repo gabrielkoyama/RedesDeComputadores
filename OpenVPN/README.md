@@ -22,7 +22,7 @@
 # aptitude install openvpn 
 ```
 
-* Acessar o diretório /etc/openvpn e crie a chave de encriptação de 2048 bits, que será usada para criar a conexão
+* Acessar o diretório ```/etc/openvpn``` e crie a chave de encriptação de 2048 bits, que será usada para criar a conexão
 
 ```
 # openvpn --genkey --secret /etc/openvpn/chave 
@@ -89,7 +89,7 @@ float       |   Permite que o túnel continue aberto mesmo que o endereço IP da
 # vim /etc/openvpn/client.conf
 ```
 
-* Editar '/etc/openvpn/client.conf' de tal maneira.
+* Editar ```/etc/openvpn/client.conf``` de tal maneira.
 
 >> **Obsevação:** A única linha que muda em relação ao servidor é a terceira linha no
 exmplo abaixo (**remote**)
