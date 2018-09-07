@@ -83,10 +83,10 @@ float       |   Permite que o túnel continue aberto mesmo que o endereço IP da
 # scp <USER-SERVER>@<IP-SERVER>:/etc/openvpn/chave /etc/openvpn/
 ```
 
-* Criar o arquivo de configuração do servidor.
+* Criar o arquivo de configuração do cliente.
 
 ```
-# vim /etc/openvpn/client.conf
+# > /etc/openvpn/client.conf
 ```
 
 * Editar ```/etc/openvpn/client.conf``` de tal maneira.
