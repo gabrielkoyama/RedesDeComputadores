@@ -22,7 +22,7 @@
 # aptitude install openvpn 
 ```
 
-* Acessar o diretório ```/etc/openvpn``` e crie a chave de encriptação de 2048 bits, que será usada para criar a conexão
+* Acessar diretório ```/etc/openvpn``` e criar a chave de encriptação de 2048 bits, que será usada para criar a conexão
 
 ```
 # openvpn --genkey --secret /etc/openvpn/chave 
