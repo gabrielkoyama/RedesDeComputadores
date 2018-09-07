@@ -3,7 +3,7 @@ Configuração de uma VLAN
 
 # AMBIENTE
 
-![vlan](Images/vlan.png)
+![vlan](images/vlan.png)
 
 # Cenário:
 
