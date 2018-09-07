@@ -31,10 +31,10 @@
 * Criar o arquivo de configuração do servidor.
 
 ```
-# vim /etc/openvpn/server.conf 
+# > /etc/openvpn/server.conf 
 ```
 
-* Editar os arquivos com os seguinte conteúdo :
+* Editar o arquivo ```/etc/openvpn/server.conf``` com os seguinte conteúdo:
 
 >> OBS: Deve-se utilizar para o tunelamento, uma rede distinta da suas demais placas de rede, no caso, temos uma rede Classe C no adaptador de rede enp0s3, então para o tunelamento, utilizamos uma rede Classe A.
 
