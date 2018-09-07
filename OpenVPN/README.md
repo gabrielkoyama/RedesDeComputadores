@@ -2,7 +2,7 @@
 
 ## Cenário
 
-> **Maquina filiar:**  
+> **Maquina filial:**  
 >> Placas de rede:
 >>> * enp0s3 - 192.168.1.10/24 - Modo bridge
 >>> * enp0s8 - 192.168.10.10/24 - Rede Interna
@@ -110,7 +110,7 @@ float
 
 * Detalhamento da configuração
 
-COMANDO     |   DESCRIÇÃO
+PARÂMETRO   |   DESCRIÇÃO
 ------------|------------
 dev tun     |   Habilita suporte ao drive TUN/TAP
 ifconfig    |   Cria o IP do servidor matriz (10.0.0.2) com suporte ao IP do servidor filial (10.0.0.1)
