@@ -96,7 +96,7 @@ exmplo abaixo (**remote**)
 
 ```
 dev tun 
-ifconfig 10.0.0.1 10.0.0.2
+ifconfig 10.0.0.2 10.0.0.1
 remote 192.168.10.10
 secret /etc/openvpn/chave
 port 5000
