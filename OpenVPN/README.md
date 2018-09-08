@@ -54,7 +54,7 @@ float
 PARÂMETRO   |   DESCRIÇÃO
 ------------|------------
 dev tun     |   Habilita suporte ao drive TUN/TAP
-ifconfig    |   Cria o IP do servidor matriz (10.0.0.1) com suporte ao IP do servidor filial (10.0.0.1)
+ifconfig    |   Cria o IP do servidor matriz (10.0.0.1) com suporte ao IP do servidor filial (10.0.0.2)
 secret      |   Comando para chamar nossa chave criptografada e o local dela
 port        |   Define a porta que a OpenVPN vai rodar
 comp-lzo    |   Ativa suporte a compressão
@@ -113,7 +113,7 @@ float
 PARÂMETRO   |   DESCRIÇÃO
 ------------|------------
 dev tun     |   Habilita suporte ao drive TUN/TAP
-ifconfig    |   Cria o IP do servidor matriz (10.0.0.2) com suporte ao IP do servidor filial (10.0.0.1)
+ifconfig    |   Cria o IP do servidor filial (10.0.0.2) com suporte ao IP do servidor matriz (10.0.0.1)
 **remote**  |   Refere-se ao IP da maquina matriz. Em nosso exemplo está sendo usado um IP local. Caso o acesso for feito pela internet, é necessário trocar por um IP externo pertencente ao link do servidor no momento 
 secret      |   Comando para chamar nossa chave criptografada e o local dela
 port        |   Define a porta que a OpenVPN vai rodar
